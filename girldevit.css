@@ -1,0 +1,42 @@
+/*
+* Moira Smith
+* December 5th, 2018
+* Girl Develop It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+/*give body font and background color*/
+body {background-color: lightpink;
+    font-family:sans-serif;}
+
+/*header color and center*/
+header {background-color:#ff6666;
+    text-align:center; }
+
+/*only h1 format*/
+h1 {font-style:bold;
+    font-family:cursive;
+    text-decoration:underline;}
+
+/*only h2 format*/
+h2 {font-family:cursive;
+    text-decoration:underline;}
+
+
+/*this makes links pink and larger when hovered over*/
+a:hover, a:focus {color: fuchsia;
+text-decoration: underline;
+font-size:175%}
+
+
+/*picture details*/ 
+#girlswithlaptops {
+        float:right;}
+#laptop {
+        float:right;}
